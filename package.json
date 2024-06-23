@@ -1,7 +1,11 @@
 {
-  "name": "",
+  "name": "astro-starter-kit-minimal",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
+  "browserslist": [
+    "defaults"
+  ],
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -12,6 +16,8 @@
   "dependencies": {
     "@astrojs/check": "^0.7.0",
     "astro": "^4.11.0",
+    "postcss": "^8.4.38",
+    "postcss-preset-env": "^9.5.14",
     "typescript": "^5.5.2"
   }
 }
