@@ -1,5 +1,6 @@
 ---
 import MainHead from "../layouts/MainHead.astro"
+import Footer from "../components/Footer.astro"
 // styles
 import "../styles/global.css"
 const {title = "Astro Blog", description = "Words of wisdom."} = Astro.props
@@ -11,5 +12,6 @@ const {title = "Astro Blog", description = "Words of wisdom."} = Astro.props
 	<MainHead title={title} description={description} />
 	<body>
 		<slot/>
+		<Footer/>
 	</body>
 </html>
